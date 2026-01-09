@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hi-events
+    name: pozitiv
     plan: free
     autoDeploy: false
     runtime: docker
@@ -28,6 +28,6 @@ services:
       - key: FILESYSTEM_PRIVATE_DISK
         value: local
 databases:
-  - name: hi-events-db
+  - name: pozitiv-db
     plan: free
     region: virginia
